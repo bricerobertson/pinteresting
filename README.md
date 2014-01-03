@@ -3,4 +3,4 @@
 This is the pinteresting sample for
 [*One Month Rails*](http://onemonthrails.com)
 
-By Brice Robertson(http://www.bricerobertson)
+By Brice Robertson(http://www.bricerobertson.com)
