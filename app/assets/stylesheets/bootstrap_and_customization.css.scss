@@ -1,9 +1,29 @@
-$body-bg:		#00b896;
-$navbar-default-bg:		#00e3B9;
-$navbar-default-link-color: white;
-$brand-primary:	 #b80022;
-$jumbotron-bg:  rgba(0, 97, 79, 0.4);
-$jumbotron-color:  rgba(245, 245, 245, 0.7);
-$headings-small-color:  white;
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+$body-bg:												rgba(204,200,201,1);
+$font-family: 									'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+$font-size-base:								18px;
+$brand-primary:	 								#b80022;
+$headings-small-color:  				white;
+$headings-line-height:					.75;
+
+$navbar-padding-horizontal:			30px;
+$padding-base-horizontal:				22px;
+
+$navbar-height:       					45px;
+$navbar-default-bg:							rgba(0, 97, 79, 0.7);
+$navbar-default-brand-color: 		white;
+$navbar-default-link-color:			white;
+
+$jumbotron-bg:  								rgba(0, 97, 79, 0.7);
+$jumbotron-color:  							white;
+
 
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+.navbar-brand {
+     font-weight: normal;
+}
