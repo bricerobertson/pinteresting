@@ -77,4 +77,7 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  #This needs to be set to the default host name
 end
